@@ -45,7 +45,7 @@ UpGrad/IIITB
 
 
 ## Contact
-Created by [@kudumulaanuj]
+Created by [@kudumulaanuja]
 
 
 <!-- Optional -->
