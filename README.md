@@ -26,7 +26,7 @@ The output layer's neuron count is determined by the target_labels variable (num
 
 The model is compiled using the Adam optimize and Sparse Categorical Crossentropy loss function, with accuracy as the evaluation metric (metrics=['accuracy']).
 
-Training occurs over 50 epochs using the fit method, with ModelCheckpoint and EarlyStopping callbacks monitoring validation accuracy. ModelCheckpoint saves the best validation accuracy model, while EarlyStopping stops training if validation accuracy plateaus (patience=5).
+Training occurs using the fit method, with ModelCheckpoint and EarlyStopping callbacks monitoring validation accuracy. ModelCheckpoint saves the best validation accuracy model, while EarlyStopping stops training if validation accuracy stops changing much.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
